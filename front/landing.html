@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome | To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Landing Page Design */
+    body {
+      margin: 0;
+      font-family: "Inter", system-ui, sans-serif;
+      background: radial-gradient(circle at top right, #1e1b4b 0%, #0f172a 70%);
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .landing-wrapper {
+      text-align: center;
+      padding: 60px 30px;
+      max-width: 650px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.03);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(8px);
+      position: relative;
+      animation: fadeIn 1s ease;
+    }
+
+    .landing-title {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+
+    .landing-sub {
+      font-size: 1.1rem;
+      color: #a5b4fc;
+      margin-bottom: 36px;
+      line-height: 1.6;
+    }
+
+    .start-btn {
+      background: linear-gradient(90deg, #8b5cf6, #3b82f6);
+      color: white;
+      border: none;
+      padding: 14px 40px;
+      border-radius: 999px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+      letter-spacing: 0.5px;
+    }
+
+    .start-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 25px rgba(99, 102, 241, 0.5);
+    }
+
+    .footer-note {
+      font-size: 0.85rem;
+      color: #94a3b8;
+      margin-top: 40px;
+      border-top: 1px solid rgba(255, 255, 255, 0.04);
+      padding-top: 12px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="landing-wrapper">
+    <h1 class="landing-title">Welcome to Your To-Do Hub</h1>
+    <p class="landing-sub">
+      Plan. Track. Complete.<br />
+      A clean and modern To-Do app
+    </p>
+    <button class="start-btn" onclick="startApp()">Get Started →</button>
+    <p class="footer-note">Your productivity starts here ⚡</p>
+  </div>
+
+  <script>
+    function startApp() {
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>
+  
