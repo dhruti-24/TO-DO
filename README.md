@@ -1,4 +1,4 @@
-✅ To-Do List (Full Stack Project)
+📝 To-Do List App
 
 A clean and modern To-Do List Web App built by Dhruti, using HTML, CSS, JavaScript (Frontend) and Node.js, Express, MongoDB Atlas (Backend).  
 This app allows users to Add, Edit, Delete, Mark Complete, and Filter tasks with real-time data saved in the MongoDB cloud database.
@@ -93,6 +93,14 @@ DELETE	      /api/tasks/:id	        Delete a specific task
 🌗 Dark / Light mode toggle
 🕓 Task due dates & notifications
 ☁️ Deploy frontend (Netlify) + backend (Render)
+
+
+
+
+👩‍💻 Developed By
+
+Dhruti Parikh
+parikhdhruti7@gmail.com
 
 
 
